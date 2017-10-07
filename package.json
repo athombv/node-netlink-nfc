@@ -1,0 +1,22 @@
+{
+  "name": "netlink-nfc",
+  "version": "1.0.0",
+  "description": "Access linux NFC adapters through netlink",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeroen Vollenbrock <jeroen@athom.com>",
+  "repository": "https://github.com/athombv/node-netlink-nfc",
+  "license": "GPL-2.0",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "node-gyp": "^3.6.2"
+  },
+  "engines" : { "node" : ">=8.6.0" },
+  "config": {
+    "npmPublishTagProduction": "latest",
+    "npmPublishTagStaging": "beta"
+  }
+}
