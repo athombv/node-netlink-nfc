@@ -15,6 +15,7 @@
     "node-gyp": "^3.6.2"
   },
   "engines" : { "node" : ">=8.6.0" },
+  "os": [ "linux" ],
   "config": {
     "npmPublishTagProduction": "latest",
     "npmPublishTagStaging": "beta",
